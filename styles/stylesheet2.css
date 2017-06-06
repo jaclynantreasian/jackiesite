@@ -1,0 +1,218 @@
+header {
+	float: left;
+   padding-top: 0 0;
+	background-image: linear-gradient(to top right, #3C0, #006400);
+	text-align: center;
+	margin: 0 0 30px 0;
+	width: 100%;
+	border-bottom: 10px solid #000;
+	margin-bottom: 60px; 
+
+    /***
+    background-image: url('../img/image4.jpg'); 
+    background-si
+    background-image: linear-gradient(color, color for transparant 90%)
+    another overlay to help with text 0 deg #fff, transparent ; will blend into white of rest of page
+     
+    ***/
+    }
+
+.logo {
+	float: left;
+	text-align: center;
+	width: 100%;
+}
+.logo h2{
+padding-bottom: 5px;
+
+}
+h1{
+	font-family: 'Abel', sans-serif;
+	font-size: 3em;
+	font-weight: normal;
+    letter-spacing: .05em;
+    margin: 0;
+ }
+
+ h2 {
+    font-family: 'Abel', sans-serif;
+	font-color: #333;
+	margin: -5px 0 0;
+	font-size: 1em;
+	margin bottom: 20px;
+    letter-spacing: .08em;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #606;
+}
+
+
+a:hover{
+    color: #000;
+
+}
+
+.selected{
+    color: #000;
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+	clear: both;
+}
+
+/***** navigation****/
+
+nav{
+	font-size: 1.2em;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+    clear: both;
+    display: inline-block;
+}
+
+nav ul{
+	list-style: none;
+    width: 100%;
+    float: none;
+    padding: 0;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+nav:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav a{
+	padding: 15px 10px;
+}
+
+/*** to change Nav float: left;****/
+nav li { 
+	margin: 0 auto;
+	padding-left: 10px;
+	display: inline-block;
+}
+
+
+img {
+	max-width: 100%;
+}
+/***********************************
+Page Portfolio 
+***********************************/
+
+#gallery{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#gallery li{
+
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	/**background-color: #f5f5f5;**/
+	color: #bdc3c7;
+}
+
+#flipbook-container {
+	margin: 0 auto;
+	display: inline-block;
+
+}
+
+#flipbook{
+	width: 800px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+#flipbook .page{
+	width: 400px;
+	height: 600px;
+	background: white;
+}
+
+#flipbook .shadow {
+	box-shadow: 0 4px 10px #666;
+
+}
+#flipbook .hard {
+	background-color: #8B008B;
+}
+
+/****body***/
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: #8d8e9b;
+}
+
+/****** contact ******/
+.contact-info{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/*********about page*********/
+
+profile-pic:{
+
+	display:block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
+h3{
+	
+  margin: 0 0 1em 0;
+
+}
+
+footer{
+
+	padding-top: 10px;
+	text-align: center;
+	font-size: .7em;
+	color: #CCC;
+	clear: both;
+    border-top: 5px #3C0;
+    padding-top: 20px;
+}
+
+#flipbook{
+	width: 800px;
+	height: 600px;
+
+}
+
+.grid-item { width: 28.33%;
+ margin-bottom: 10px; 
+}
+.grid-item--width2 { width: 28.33%; }
+
+#bg-overlay{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: none;
+    background-color: #fff;
+    opacity: 0.3;
+}
+
+#bg-overlay.show{
+    display: block;
+    z-index: 10;
+
+}

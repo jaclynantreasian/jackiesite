@@ -1,0 +1,83 @@
+
+@media screen and (min-width: 480px) {
+	nav li{
+		float: right;
+		display: block;
+	}
+ 
+ /***two column layout contact*****/ 
+ #primary {
+ 	width: 50%;
+ 	float: left;
+}
+#secondary{
+	width: 40%;
+	float: right;
+}
+
+
+}
+
+
+  
+@media screen and (min-width: 660px) {
+nav {
+
+  /**** heading****/
+    background: none; 
+    float: right;
+    margin-right: 5%;
+    text-align: right;
+    width: 45%;
+    clear: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+/*****
+line height: 1.5; No increment
+order can be font: normal 1em/1.5 Arialakafontstack;
+border width, style color
+box-sizing: border-box; adjusts box size with padding ***/
+
+}
+
+nav ul {
+margin: 0;
+padding: 0;
+
+}
+
+header{
+  position: relative;
+}
+
+.logo{
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+    width:45%;
+}
+
+  #gallery li:nth-child(4n){
+    clear: left;
+  }
+}
+
+
+#gallery-modal{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 800px;
+  height: 600px;
+  background-color: pink;
+  display: none;
+  margin-left: -400px;
+  margin-top: -300px;
+  z-index: 5;
+}
+
+#gallery-modal.show{
+display: block;
+
+}
